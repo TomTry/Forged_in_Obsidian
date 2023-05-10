@@ -440,9 +440,9 @@ if (trueClass == "Vital") {
     var biomes = "**Biomes:** ";
     for (let i = 0; i < numbBio; i = i + 1) {
         if (i == 0) {
-            biomes = biomes + expand("tbl roll Oracles/Planets/Vital/Planets_Vital_Biomes.md");
+            biomes = biomes + expand("tbl roll Oracles/Planets/Vital/Planets_Vital_Biome_Type.md");
         } else {
-            biomes = biomes + ", " + expand("tbl roll Oracles/Planets/Vital/Planets_Vital_Biomes.md");
+            biomes = biomes + ", " + expand("tbl roll Oracles/Planets/Vital/Planets_Vital_Biome_Type.md");
         }
     }
     finalAdd = "\n> **Diversity:** " + diversity + "\n> " + biomes;
